@@ -16,7 +16,7 @@ jobs:
           pip install pyyaml
       - name: Run Feed Generator
         run: |
-          python prodcast-test/feed.py
+          python feed.py
       - name: Commit and Push Changes
         run: |
           git config user.name "github-actions"
